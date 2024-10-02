@@ -1,0 +1,11 @@
+{
+  "extends": [
+    "next",
+    "next/core-web-vitals",
+    "./node_modules/@vincenthend/eslint-config/typescript.eslintrc"
+  ],
+  "parserOptions": {
+    "project": "./tsconfig.json"
+  },
+  "ignorePatterns": ["**/*.js"]
+}
